@@ -176,7 +176,7 @@ footer{
 }
 
 /* small phones and tablets */
-@media (max-width: 728px) {
+@media (max-width: 360px - 728px) {
     .row {
         display: flex;
         flex-direction: column;
@@ -199,6 +199,7 @@ footer{
         max-width: 240px;
 
     }
+
     ul{
         display: none;
     }
@@ -219,7 +220,7 @@ footer{
     }
 
 
-}
+
 
 footer{
     padding: 48px 24px;
@@ -239,3 +240,4 @@ footer{
     margin-bottom: 24px;
 }
 
+}
