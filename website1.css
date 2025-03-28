@@ -176,16 +176,18 @@ footer{
 }
 
 /* small phones and tablets */
-@media (max-width: 360px - 728px) {
+@media (max-width: 728px) {
     .row {
         display: flex;
         flex-direction: column;
     }
+
     .home_description{
         margin-bottom: 24px;
         display: flex;
         flex-direction: column;
     }
+
     h1 {
         font-size: 60px;
         text-align: center;
@@ -194,7 +196,8 @@ footer{
         font-size: 28px;
         text-align: center;
     }
-    home_description_button {
+
+    .home_description_button {
         margin: 0 auto;
         max-width: 240px;
 
