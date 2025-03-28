@@ -145,6 +145,7 @@ form{
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    padding: 0px 24px;
 }
 
 input, textarea {
@@ -172,5 +173,69 @@ footer{
 
 .footer__link {
     padding: 0 16px;
+}
+
+/* small phones and tablets */
+@media (max-width: 728px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_description{
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .subheader {
+        font-size: 28px;
+        text-align: center;
+    }
+    home_description_button {
+        margin: 0 auto;
+        max-width: 240px;
+
+    }
+    ul{
+        display: none;
+    }
+    .section_description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__description--wrapper{
+        width: 100%;
+    }
+    .about_image--wrapper{
+        width: 100%;
+    }
+    #discord .section_description{
+        flex-direction: column-reverse;
+       
+    }
+
+
+}
+
+footer{
+    padding: 48px 24px;
+}
+
+.footer_logo {
+    max-width: 4px;
+    margin-bottom: 16px;
+}
+
+.footer_link {
+    padding: 0 4px;
+    font-size: 18px;
+}
+
+.footer_links {
+    margin-bottom: 24px;
 }
 
