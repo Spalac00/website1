@@ -237,12 +237,13 @@ footer{
 
 .footer_link {
     padding: 0 4px;
-    font-size: 14px;
 }
 
 .footer_links {
     margin-bottom: 24px;
-    font-size: 14px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
 }
 
 }
